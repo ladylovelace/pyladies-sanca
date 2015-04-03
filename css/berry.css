@@ -97,7 +97,7 @@ header .navbar-default ul.navbar-nav li a:hover {
 header .navbar-default ul.navbar-nav li a:hover:after {
   background: #ffffff;
 }
-header .navbar-default ul.navbar-nav li a.getApp {
+header .navbar-default ul.navbar-nav li a.partners {
   -webkit-border-radius: 5em;
   -moz-border-radius: 5em;
   -ms-border-radius: 5em;
@@ -109,7 +109,7 @@ header .navbar-default ul.navbar-nav li a.getApp {
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
-header .navbar-default ul.navbar-nav li a.getApp:after {
+header .navbar-default ul.navbar-nav li a.partners:after {
   display: none;
 }
 header .navbar-default .navbar-brand {
@@ -405,18 +405,18 @@ section#demo iframe {
   border: none;
 }
 /* Get app Section */
-section#getApp {
+section#partners {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   padding: 70px 0;
 }
-section#getApp .platforms {
+section#partners .platforms {
   margin: 5px auto 120px auto;
   text-align: center;
 }
-section#getApp .platforms .btn {
+section#partners .platforms .btn {
   margin-right: 10px;
   margin-bottom: 20px;
 }
@@ -655,7 +655,7 @@ form textarea.form-control {
     padding: 10px;
     text-align: center;
   }
-  header .navbar-default ul.navbar-nav li a.getApp {
+  header .navbar-default ul.navbar-nav li a.partners {
     background: none !important;
     -webkit-border-radius: 0em;
     -moz-border-radius: 0em;
@@ -708,7 +708,7 @@ header .navbar-default ul.navbar-nav li a {
   color: #ffffff;
   background: none;
 }
-header .navbar-default ul.navbar-nav li a.getApp {
+header .navbar-default ul.navbar-nav li a.partners {
   color: #824583;
   background: #ffffff;
   /* Old browsers */
@@ -727,7 +727,7 @@ header .navbar-default ul.navbar-nav li a.getApp {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#e0e0e0, GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
 }
-header .navbar-default ul.navbar-nav li a.getApp:hover {
+header .navbar-default ul.navbar-nav li a.partners:hover {
   color: #8c4b8d;
   background: #ffffff;
   /* Old browsers */
@@ -880,30 +880,30 @@ section#demo header h1:after {
   background: #cc6698;
 }
 /* Get app Section */
-section#getApp {
+section#partners {
   background: url("../img/berry/bk-berry-ga.jpg");
 }
-section#getApp header {
+section#partners header {
   color: #ffffff;
 }
-section#getApp header h1:after {
+section#partners header h1:after {
   background: #ffffff;
 }
-section#getApp .platforms .media {
+section#partners .platforms .media {
   border: 2px solid #ffffff;
   color: #ffffff;
 }
-section#getApp .platforms .media a i {
+section#partners .platforms .media a i {
   color: #ffffff;
 }
-section#getApp .platforms .media a div.media-body {
+section#partners .platforms .media a div.media-body {
   color: #ffffff;
 }
-section#getApp .platforms .media:hover {
+section#partners .platforms .media:hover {
   background: #ffffff;
 }
-section#getApp .platforms .media:hover a i,
-section#getApp .platforms .media:hover a div.media-body {
+section#partners .platforms .media:hover a i,
+section#partners .platforms .media:hover a div.media-body {
   color: #cc6698;
 }
 /* support section */
@@ -1020,7 +1020,7 @@ form .form-control:focus {
     color: #ffffff;
     border-bottom: 1px solid #753e76;
   }
-  header .navbar-default ul.navbar-nav li a.getApp {
+  header .navbar-default ul.navbar-nav li a.partners {
     color: #ffffff;
   }
   header .navbar-default ul.navbar-nav li a:after {

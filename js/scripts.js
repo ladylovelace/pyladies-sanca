@@ -69,12 +69,6 @@ var appMaster = {
             }]
         });
 
-        $('.js-filter-all').on('click', function() {
-            $('.filtering').slickUnfilter();
-            $('.filter a').removeClass('active');
-            $(this).addClass('active');
-        });
-
         $('.js-filter-one').on('click', function() {
             $('.filtering').slickFilter('.one');
             $('.filter a').removeClass('active');
@@ -89,6 +83,12 @@ var appMaster = {
 
         $('.js-filter-three').on('click', function() {
             $('.filtering').slickFilter('.three');
+            $('.filter a').removeClass('active');
+            $(this).addClass('active');
+        });
+
+        $('.js-filter-four').on('click', function() {
+            $('.filtering').slickUnfilter('.four');
             $('.filter a').removeClass('active');
             $(this).addClass('active');
         });
